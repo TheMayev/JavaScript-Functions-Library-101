@@ -29,6 +29,7 @@ in organized fashion. [^2]
 
 But be my guest! Help yourself with these functions! :smile:
 
+Sincerely, 
 TheMayev
 
 ---
