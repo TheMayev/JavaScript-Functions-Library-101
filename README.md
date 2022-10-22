@@ -25,7 +25,7 @@ So I organize functions I wrote and prepare small library of them.
 The main reason for this repo is to have all my materials in one place and 
 in organized fashion. 
 
-But be my guest! Help yourself with this functions! :smile:
+But be my guest! Help yourself with these functions! :smile:
 
 TheMayev
 
