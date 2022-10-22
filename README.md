@@ -2,7 +2,7 @@
 
 # JavaScript functions 
 
-This repository is made of functions ** I wrote **[^1] during my JavaScript learning process. 
+This repository is made of functions **I wrote**[^1] during my JavaScript learning process. 
 
 ## How to use: 
 
@@ -12,7 +12,7 @@ files with some examples on what the output will look like.
 - all_functions.js : this is one single file with all functions, no examples 
 just functions with short descriptions. 
 
-** IMPORTANT ** 
+**IMPORTANT** 
 
 You can use it in way you like. You can rewrite functions, copy it and use 
 wherever you want. 
