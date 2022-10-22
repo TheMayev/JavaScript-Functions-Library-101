@@ -32,8 +32,8 @@ But be my guest! Help yourself with these functions! :smile:
 Sincerely,\
 TheMayev
 
----
-P.S 
+
+
 All suggestions are welcome! (also fell free to point my mistakes)
 ---
 [^1]: And I do not guarantee that is the best possible solution at all. 
