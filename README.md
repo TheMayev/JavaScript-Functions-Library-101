@@ -29,12 +29,10 @@ in organized fashion. [^2]
 
 But be my guest! Help yourself with these functions! :smile:
 
+All suggestions are welcome! (also fell free to point my mistakes)
+
 Sincerely,\
 TheMayev
 
-
-
-All suggestions are welcome! (also fell free to point my mistakes)
----
 [^1]: And I do not guarantee that is the best possible solution at all. 
 [^2]: But this does not mean that the difficulty level is organized... yet. 
