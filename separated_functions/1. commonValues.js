@@ -28,3 +28,5 @@ console.log(common) ;
 /* Output: 
 
 [1, 4, 5, 6, 10, 12, 123]
+
+*/
