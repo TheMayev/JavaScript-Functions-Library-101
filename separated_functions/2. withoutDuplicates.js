@@ -16,11 +16,7 @@ let simpleA = withoutDuplicates(a)
 
 console.log(simpleA)
 
-/* Output: 
-
-[1, 2, 3, 4, 5]
-
-*/ 
+/* Output: [1, 2, 3, 4, 5] */ 
 
 
 
