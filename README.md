@@ -10,7 +10,8 @@ This repository is made of functions **I wrote**[^1] during my JavaScript learni
 files with some examples of how the output will look like. 
 
 - all_functions.js : this is one single file with all functions, no examples 
-just functions with short descriptions. 
+just functions with short descriptions. I thinks is like small and unproffesional
+documentation.  
 
 **IMPORTANT** 
 
