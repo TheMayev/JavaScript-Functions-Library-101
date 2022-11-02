@@ -16,3 +16,6 @@ function withoutDuplicates(somArr) {
   let mySet = new Set(somArr);
   return Array.from(mySet);
 }
+
+// Capital Letters Indexes
+
