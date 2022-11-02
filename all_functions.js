@@ -10,6 +10,7 @@ function commonValues(a, b) {
   return Array.from(setC);
 }
 
+
 // Without Duplicates
 
 function withoutDuplicates(somArr) { 
@@ -17,8 +18,8 @@ function withoutDuplicates(somArr) {
   return Array.from(mySet);
 }
 
-// Capital Letters Indexes
 
+// Capital Letters Indexes
 
 function capitalLetters(string) {
   let convertedWord = string;  
@@ -29,5 +30,15 @@ function capitalLetters(string) {
     }
   }
   return list; 
+}
+
+
+// First and Last 
+
+function firstLast(list) {
+  let newList = []; 
+  newList.push(list[0]); 
+  newList.push(list[list.length -1 ]);
+  return newList;
 }
 
