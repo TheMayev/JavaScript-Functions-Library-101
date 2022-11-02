@@ -25,7 +25,7 @@ function capitalLetters(string) {
   let convertedWord = string;  
   let list = []; 
   for (let i = 0; i < convertedWord.length; i++) {  
-    if(convertedWord[i].match(/[A-Z]/) !=== null) {
+    if(convertedWord[i].match(/[A-Z]/) !== null) {
       list.push(i); 
     }
   }
@@ -40,5 +40,16 @@ function firstLast(list) {
   newList.push(list[0]); 
   newList.push(list[list.length -1 ]);
   return newList;
+}
+
+
+// Reverse Array 
+
+function reverseArray(arr) { 
+  let reversed = []; 
+  for (let i = arr.length - 1; i >= 0; i--) { 
+      reversed.push(arr[i]);
+  } 
+  return reversed 
 }
 

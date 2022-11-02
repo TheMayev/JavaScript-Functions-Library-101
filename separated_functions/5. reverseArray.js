@@ -7,7 +7,7 @@ function reverseArray(arr) {
   for (let i = arr.length - 1; i >= 0; i--) { 
     /*It iterate backwards to the moment that it will reach what was declared. 
     i-- negative increment*/
-      reversed.push(x[i]);
+      reversed.push(arr[i]);
       // it pushes the number into the reversed array
   } 
   return reversed // returns reversed array 

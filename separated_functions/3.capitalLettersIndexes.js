@@ -9,7 +9,7 @@ function capitalLetters(string) {
   let list = []; // empty array declared
   for (let i = 0; i < convertedWord.length; i++) {
     // for loop where number of loops is based on string lenght.  
-    if(convertedWord[i].match(/[A-Z]/) !=== null) {
+    if(convertedWord[i].match(/[A-Z]/) !== null) {
       /* RegEx declared, function looks for capital letters, and when capital
       letter is found it pushes its index to the array "List" */ 
       list.push(i); 
