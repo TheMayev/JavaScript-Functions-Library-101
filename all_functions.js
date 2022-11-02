@@ -19,3 +19,15 @@ function withoutDuplicates(somArr) {
 
 // Capital Letters Indexes
 
+
+function capitalLetters(string) {
+  let convertedWord = string;  
+  let list = []; 
+  for (let i = 0; i < convertedWord.length; i++) {  
+    if(convertedWord[i].match(/[A-Z]/) !=== null) {
+      list.push(i); 
+    }
+  }
+  return list; 
+}
+
