@@ -53,3 +53,14 @@ function reverseArray(arr) {
   return reversed 
 }
 
+
+// Random Array Generator 
+
+function randomArrayGenerator(lentgthOfArray, numbersRange) {
+  let ranArr = Array.from({length: lentgthOfArray}, () => Math.floor(
+    /*1 - comment about this is under the function*/
+    Math.random() * numbersRange + 1
+  )); 
+  return ranArr.sort((a,b) => a - b);
+} 
+
