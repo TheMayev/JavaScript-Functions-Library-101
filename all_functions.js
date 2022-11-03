@@ -64,3 +64,10 @@ function randomArrayGenerator(lentgthOfArray, numbersRange) {
   return ranArr.sort((a,b) => a - b);
 } 
 
+
+// Sorted Array 
+
+function sortArr(arr) {
+  return arr.sort((a,b) => a - b); 
+} 
+
