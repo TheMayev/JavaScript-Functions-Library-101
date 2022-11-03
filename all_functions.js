@@ -71,3 +71,18 @@ function sortArr(arr) {
   return arr.sort((a,b) => a - b); 
 } 
 
+
+// Converting Sorting Stringing 
+
+function sortedConverted(arrayOfNumbers) {
+  let sorted = arrayOfNumbers.sort((a,b) => a - b); 
+  // Sorted array assigned to variable sorted
+  let arrayOfStrings = [];
+  // Empty array declaration 
+  sorted.forEach(el => {
+    arrayOfStrings.push(String(el))
+    /* Here converts it to strings and pushes numbers as strings to variable 
+    array Of String */
+  })
+  return arrayOfStrings
+}
