@@ -33,5 +33,12 @@ reverseMessage = reverseMessage.replaceAll(',', ' ')
 // replace all commas with space
 
 
+// Examples
+
 console.log(orginalMessage);
+
+/* Output: Gimmie string */
+
 console.log(reverseMessage);
+
+/* Output: string Gimmie */

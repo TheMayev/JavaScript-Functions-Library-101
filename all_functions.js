@@ -101,3 +101,115 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
+
+
+// Chessboard 
+
+/* Program that uses console.log to print chess board made from "#"*/
+
+let size = 8; 
+let board = ''; 
+
+for (let y = 0; y <= size; y++) { // y axis
+  for (let x = 0; x <= size; x++) { // x axis
+    if ((x+y) % 2 === 0) { // modulo operator 
+      board += '#';
+    } else {
+      board += ' ';
+    }
+  }
+  board += '\n'
+}
+
+console.log(board)
+
+
+// Flatten Array 
+
+/* This verion is with reduce, and concat methods */
+
+function flaten(someArrayOfArrays) {
+  let arry = someArrayOfArrays;
+  let flatten = arry.reduce((a,b) => a.concat(b), []);
+  return flatten; 
+}
+
+// or with flat method 
+
+function flatten1(someArrofArrys) {
+  return someArrofArrys.flat(1)// where number spefiied depth of flattening
+
+}
+
+
+// Thousand Separator 
+
+function format_number(someNumber) {
+  return someNumber.toLocaleString(); 
+}
+
+
+// Counting Arguments 
+
+function countArguemnts() {
+  return arguments.length;
+}
+
+
+// Fibonacci Generator 
+
+function fibonacciGenerator(lenghtOfList) {
+  let fibonacciList = []; 
+  let x1 = 0; 
+  let x2 = 1; 
+  for(let i = 0; i < lenghtOfList; i++) {
+    fibonacciList.push(x1) 
+    let acc = x1 + x2; 
+    x1 = x2; 
+    x2 = acc; 
+  }
+  return fibonacciList
+}
+
+// Even Numbers 
+
+const evenNum = (arr) => {
+  let even = y.filter(el => {
+    return el % 2 === 0;
+  })
+  return even;
+};
+
+
+// Array of squares 
+
+const makeArrayOfSquares = (startNum, endNum) => {
+  let array = []; 
+  for(let i = startNum; i <= endNum; i++) {
+    let squared = i ** 2;
+    array.push(squared);
+  };
+  return array; 
+}
+
+
+// Array Summing 
+
+const sum = (arr) => {
+  return arr.reduce((a,b) => a + b);
+}
+
+
+// Adding 
+
+const addNumbers = (startNum, endNum) => {
+  let sum = 0; 
+  for(let i = startNum; i <= endNum; i++) {
+    sum = sum + i; 
+  }
+  return sum; 
+}
+
+
+
+

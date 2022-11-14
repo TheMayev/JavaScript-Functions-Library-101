@@ -20,3 +20,29 @@ for (let i = 1; i <= 100; i++) { // for loop declaration for numbers form 1 - 10
     console.log(i);
   }
 }
+
+/* Output: 
+
+if i = 1; <= 20; i ++ 
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+
+*/

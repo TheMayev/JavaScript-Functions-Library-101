@@ -10,3 +10,18 @@ const addNumbers = (startNum, endNum) => {
   }
   return sum; 
 }
+
+// Examples: 
+
+
+console.log(addNumbers(2,10))
+
+/* Output: 54 */ 
+
+console.log(addNumbers(100, 1000))
+
+/* Output: 495550 */ 
+
+console.log(addNumbers(112, 321))
+
+/* Output: 45465 */ 
