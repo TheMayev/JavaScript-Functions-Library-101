@@ -1,4 +1,4 @@
-/* ----------------- To be saved --------------------
+
 
 
 function divsors(number) {
@@ -100,9 +100,9 @@ function flateenBasic(list1, list2) {
 
 console.log(flateenBasic(arr, arr1));
 
-The main differenc is that concat can merge one or more arrays, but it is
-good when we have two or more arrays declared.
-In case that is array of arrays it is - to my actual knowledge - possible. 
+// The main differenc is that concat can merge one or more arrays, but it is
+// good when we have two or more arrays declared.
+// In case that is array of arrays it is - to my actual knowledge - possible. 
 
 // Alternative version Two 
 
@@ -150,4 +150,3 @@ while (sec < final) {
 
 console.log(total)
 
-*/
