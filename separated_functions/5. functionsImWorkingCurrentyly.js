@@ -38,7 +38,7 @@ function factorial(num) {
 console.log(factorialUsingRecursive(5))
 console.log(factorial(5))
 
-}
+
 
 function withoutDuplicates(arr) {
    let uniqueArray = arr.filter((item, pos, self) => {
@@ -150,3 +150,56 @@ while (sec < final) {
 
 console.log(total)
 
+
+
+function randomArrayGenerator(lengthOfArr, range) {
+  let array = Array.from({length: lengthOfArr}, () => {
+    return Math.floor(Math.random() * range + 1)
+  })
+  return array.sort((a,b) => a - b)
+}
+
+function concat(array) {
+  return array.reduce((a,b) => a.concat(b), []).sort((a,b) => a - b)
+}
+
+
+
+
+let o1 = randomArrayGenerator(10, 100)
+let o2 = randomArrayGenerator(10, 100)
+let o3 = randomArrayGenerator(10, 100)
+let o4 = randomArrayGenerator(10, 100)
+let o5 = randomArrayGenerator(10, 100)
+let o6 = randomArrayGenerator(10, 100)
+let o7 = randomArrayGenerator(10, 100)
+
+
+let a1 = [o1, o2, o3]
+let a2 = [o4, o5, o6]
+let a3 = [o6, o7, o1]
+let a4 = [o1, o4, o2]
+
+
+let u1 = concat(a1)
+let u2 = concat(a2)
+let u3 = concat(a3)
+let u4 = concat(a4)
+
+function withoutDuplicates(arr) {
+  let unique = arr.filter((x, y, z) => {
+    return z.indexOf(x) === y
+  })
+  return unique
+}
+
+function commonValues(a, b) {
+  let arr1 = withoutDuplicates(a)
+  let arr2 = withoutDuplicates(b)
+  console.log(arr1)
+  console.log(arr2)
+  let finalArr = [...arr1].filter(el => arr2.includes(el))
+  return finalArr
+}
+
+console.log(commonValues(u1, u2))
